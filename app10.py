@@ -55,7 +55,6 @@ st.image("ice.png", caption="Welcome to the Restaurant Chatbot", use_column_widt
 
 st.write("한식당에 관한 질문을 입력해보세요. 예: 영업시간이 어떻게 되나요?")
 
-
 user_input = st.text_input("user", "")
 
 if st.button("Submit"):
